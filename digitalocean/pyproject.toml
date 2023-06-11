@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "digitalocean"
+version = "0.1.0"
+description = "DigitalOcean Provider for Infra"
+authors = ["Bas Wilson <friedcatps@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+infra-helpers = {url = "https://infra-providers.ams3.digitaloceanspaces.com/packages/infra_helpers-0.1.0-py3-none-any.whl"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
